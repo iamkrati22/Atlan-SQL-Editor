@@ -1,0 +1,17 @@
+.ace-editor{
+    margin: 1vw;
+    border: 1px solid rgb(217, 209, 209);
+}
+.primary-btn{
+    margin: 1vw;
+    height: 2vw;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#run-query{
+
+}
