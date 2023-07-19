@@ -1,0 +1,43 @@
+
+
+.output-header{
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.table-container {
+    max-height: 40vw;
+    overflow-y: auto;
+    max-width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .table-container-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .rendered-table {
+    width: 10vw !important;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+  }
+  
+  .rendered-table th,
+  .rendered-table td {
+    padding: 6px;
+    border: 1px solid #ddd;
+    font-size: 1vw;
+  }
+  
+  .no-output {
+    margin-top: 16px;
+    color: #999;
+    text-align: center;
+    height: 9vw;
+  }
+  

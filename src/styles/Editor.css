@@ -1,8 +1,43 @@
-.ace-editor{
-    margin: 1vw;
+/* Editor.css */
+
+/* General styles for both desktop and mobile */
+.dark-mode {
+    margin-left: 2vw;
+    margin-top: 10px;
+  }
+  
+  .dark-mode label {
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .dark-mode input {
+    margin-left: 0.5vw;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  
+  .editor-top {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .ace-editor {
+    margin: 2vw 1vw;
     border: 1px solid rgb(217, 209, 209);
-}
-.primary-btn{
+  }
+  
+  .schema {
+    margin: 4vw 1vw;
+    width: 30vw;
+    height: 25vw;
+  }
+  
+  .primary-btn {
     margin: 1vw;
     height: 2vw;
     padding: 1vw;
@@ -10,8 +45,48 @@
     flex-direction: column;
     justify-content: center;
     cursor: pointer;
-}
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9vw;
+  }
+  
 
-#run-query{
-
-}
+  .btn-container {
+    display: flex;
+  }
+  
+  /* Media query for smaller screen sizes (e.g., tablets and phones) */
+  @media screen and (max-width: 768px) {
+    .editor-top {
+      flex-direction: column-reverse;
+      justify-content: center;
+    }
+    .schema{
+        width: 275px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: auto;
+    }
+    .dark-mode input {
+        height: 5px;
+    }
+    .dark-mode {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+      }
+    
+    .ace-editor{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-container{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       margin-top: 0px;
+    }
+      
+  }
+  
