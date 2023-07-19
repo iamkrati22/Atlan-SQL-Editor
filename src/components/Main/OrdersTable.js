@@ -5,6 +5,8 @@ import { shippers_csv } from "../../data/shippers";
 import { customers_csv } from "../../data/customers";
 import { categories_csv } from "../../data/categories";
 import { ToastContainer, toast } from "react-toastify";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import "react-toastify/dist/ReactToastify.css";
 import "../../styles/OrdersTable.css";
 
@@ -28,7 +30,7 @@ const OrdersTable = ({ csvData }) => {
       csvData = categories_csv;
       break;
     default:
-      // Default to "employees" table
+      // Default to "customers" table
       csvData = customers_csv;
   }
 
@@ -56,8 +58,9 @@ const OrdersTable = ({ csvData }) => {
     <div className="table-container">
       <div className="table-container-top">
         <p className="output-header">Output</p>
+       
         <button className="primary-btn" id="download" onClick={handleDownload}>
-          Download CSV
+          Download CSV   <FontAwesomeIcon icon={faDownload}/>
         </button>
       </div>
 

@@ -40,15 +40,31 @@
   .primary-btn {
     margin: 1vw;
     height: 2vw;
-    padding: 1vw;
+    padding: 1.1vw;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9vw;
+    font-weight: 500;
+    align-items: center;
+    color: white;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add transitions */
+  }
+  .primary-btn:hover{
+    transform: translateY(0.5px); 
+  }
+
+  #run-query {
+    background-color: green;
   }
   
+  #run-query:hover {
+    background-color: #50a456; 
+  }
+  
+
 
   .btn-container {
     display: flex;

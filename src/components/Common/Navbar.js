@@ -1,6 +1,8 @@
 import React from "react";
 import "../../styles/Navbar.css";
 import logo from '../../logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
 
 class Navbar extends React.Component {
 
@@ -14,13 +16,8 @@ class Navbar extends React.Component {
           <h5>SQL Editor</h5>
         </div>
         <ul id="nav-mid">
-          <li>Tables</li>
-          <li>Instructions</li>
-          <li>Source</li>
+          <li> <a href="https://github.com/iamkrati22/Atlan-SQL-Editor">Source Code  </a><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></li>
         </ul>
-        <div id="nav-rgt">
-          
-        </div>
       </nav>
     );
   }

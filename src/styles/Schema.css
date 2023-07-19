@@ -1,5 +1,5 @@
 #schema-container{
-    border: 1px solid rgb(198, 198, 198);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 #Schema{
     width: 30vw;
@@ -26,10 +26,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
   }
   
   #Schema li {
-    font-size: 0.9vw;
+    font-size: 0.8vw;
     padding: 0.5vw;
     cursor: pointer;
     border: 1px solid grey;
@@ -39,7 +40,7 @@
   
   #Schema li.active {
     background-color: #f0f0f0;
-    font-weight: bold;
+    font-weight: 500;
   }
   
   #Schema table {
@@ -53,11 +54,13 @@
     padding: 0.7vw;
     font-size: 1vw;
     text-align: left;
+
     border-bottom: 1px solid #ccc;
   }
   
   #Schema  th {
     background-color: #f0f0f0;
+        font-family: 'Montserrat', sans-serif;
   }
   
   @media screen and (max-width: 768px) {

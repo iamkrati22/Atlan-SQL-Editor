@@ -7,6 +7,8 @@ import "ace-builds/src-noconflict/theme-twilight"; // Import the second theme
 import OrdersTable from "./OrdersTable.js";
 import Schema from "./Schema.js";
 import { ToastContainer, toast } from "react-toastify";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlay } from '@fortawesome/free-solid-svg-icons'
 import "react-toastify/dist/ReactToastify.css";
 
 import "../../styles/Editor.css";
@@ -56,7 +58,7 @@ const Editor = () => {
     setShowOrdersTable(false);
   }, [query]);
 
-  const editorTheme = darkMode ? "twilight" : "github"; // Use different themes based on darkMode
+  const editorTheme = darkMode ? "github" : "twilight"; // Use different themes based on darkMode
 
   return (
     <div className="editor">
@@ -93,7 +95,7 @@ const Editor = () => {
         />
         <div className="btn-container">
         <button className="primary-btn" id="run-query" onClick={handleRunQuery}>
-          Run Query
+          Run Query &nbsp;<FontAwesomeIcon icon={faPlay} />
         </button>
       </div>
         </div>

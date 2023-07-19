@@ -19,7 +19,7 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  
+
   .rendered-table {
     width: 10vw !important;
     margin-right: auto;
@@ -41,3 +41,9 @@
     height: 9vw;
   }
   
+  #download{
+    background-color: blue;
+  }
+  #download:hover{
+    background-color: #0051a3;
+  }

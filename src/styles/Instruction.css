@@ -2,13 +2,18 @@
 #Instructions{
     font-family: 'Open Sans', sans-serif;
     margin: 2vw;
-    border: 1px solid rgb(202, 196, 196);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     padding: 1vw 2vw;
     text-decoration: none;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 #Instructions h3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
+    font-weight: 600;
     padding: 1vw 0vw;
 }
 #Instructions h4{
@@ -28,11 +33,12 @@
 #fun-fact{
     margin-top: 0.5vw;
     padding: 1.5vw;
-    border: 1px solid rgb(237, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     border-radius: 2vw;
     font-weight: 500;
     text-align: center;
     background-color: rgb(255, 255, 228);
+    margin-bottom: 0.5vw;
 }
 #fun-fact a{
     text-decoration: none;
