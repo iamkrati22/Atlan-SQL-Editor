@@ -4,14 +4,14 @@ import { products_csv } from "../../data/products";
 import { shippers_csv } from "../../data/shippers";
 import { customers_csv } from "../../data/customers";
 import { categories_csv } from "../../data/categories";
-import { ToastContainer, toast } from "react-toastify";
+import {  toast } from "react-toastify";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import "react-toastify/dist/ReactToastify.css";
 import "../../styles/OrdersTable.css";
 
 const OrdersTable = ({ csvData }) => {
-  console.log("Here is the csvData", csvData);
+  
 
   switch (csvData) {
     case "orders":
