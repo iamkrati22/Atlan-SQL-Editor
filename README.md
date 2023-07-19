@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+## About this project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Atlan SQL Editor is a sleek and intuitive tool designed to simplify SQL query composition and execution. With a clean and organized workspace, users can focus on writing accurate and efficient SQL queries effortlessly. The editor provides smart code recommendations, schema reference, and real-time error handling to enhance the overall user experience. Whether you are a beginner or an experienced developer, Atlan SQL Editor empowers you to interact with databases and gain valuable insights from your data.
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+Explore the full potential of Atlan SQL Editor and unleash the power of SQL query writing. Simplify your data manipulation tasks and experience the following key features:
 
-### `npm start`
+- 💻 **Interactive SQL Query Execution**: Easily run SQL queries on the five preloaded tables with a seamless interface for composing, executing, and analyzing SQL commands.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎨 **Customizable Code Editor Themes**: Personalize your coding experience by switching between various themes for the code editor to suit your style and enhance productivity.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 💡 **Smart Code Recommendations**: Benefit from intelligent auto-recommendations for SQL commands and queries, saving time and reducing errors.
 
-### `npm test`
+- 📚 **Schema Reference**: Access table schema directly within the editor for accurate and consistent query composition.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 📥 **Download Results as CSV**: Conveniently download generated query results in CSV format for easy sharing, analysis, and visualization.
 
-### `npm run build`
+- ⚠️ **Error Handling and Syntax Highlighting**: Real-time syntax highlighting and error messages for incorrect queries ensure code accuracy.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 📱 **Responsive Design**: Enjoy a smooth and enjoyable user experience on desktops, laptops, and mobile devices.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ✨ **User-Friendly Interface**: The clean and intuitive interface enhances productivity and keeps you focused on SQL querying tasks.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Built With
 
-### `npm run eject`
+Atlan SQL Editor is built with the following technologies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [React](https://react.dev/)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [VS Code](https://code.visualstudio.com/)
+- [Vercel](https://vercel.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### NPM Modules Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The Atlan SQL Editor project leverages the following NPM modules:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `react-ace`: This module is used to integrate the "Ace" code editor into the application, providing syntax highlighting and code editing capabilities.
 
-## Learn More
+- `react-csv-to-table`: Used to render the output as a simple CSV table, making it easy for users to visualize and analyze the generated data.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `react-dom`: A fundamental NPM module for interacting with React's virtual DOM, enabling the rendering of React components to the actual DOM.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `react-toastify`: This module enables the display of toast notifications for success or error events, providing users with informative messages during their interaction with the application.
 
-### Code Splitting
+- `react-ace-editor`: A code editor library that is integrated into the application, facilitating code editing with features like syntax highlighting and autocompletion.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `react-csv`: Used to facilitate the export of the output window table as a CSV file, allowing users to download and analyze the data in external applications.
 
-### Analyzing the Bundle Size
+- `react-fontawesome`: A library that provides React components for using Font Awesome icons, enhancing the visual aesthetics of the application with a wide variety of high-quality icons.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+These NPM modules play a crucial role in building and enhancing the Atlan SQL Editor, providing essential functionalities and improving the user experience.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Performance
 
-### Deployment
+We take performance seriously, and as a result, Atlan SQL Editor achieved impressive results in Google PageSpeed Insights. Here are the performance metrics for the desktop and mobile views:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+#### Desktop View:
+![Desktop View Performance](https://i.ibb.co/nDKB26Q/desktop-view.png)
 
-### `npm run build` fails to minify
+#### Mobile View:
+![Mobile View Performance](https://i.ibb.co/qrhZm02/mobile-view.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+These performance metrics were obtained from [Google PageSpeed Insights](https://pagespeed.web.dev/analysis/https-atlan-sql-editor-git-main-iamkrati22-vercel-app/93oqrn4v92?form_factor=desktop). We continually strive to optimize the user experience, ensuring that Atlan SQL Editor provides the best performance across all devices.
+
+
+
+## Page Load Time Optimization
+
+Atlan SQL Editor is designed for a lightning-fast and responsive user experience. We have employed the following strategies to optimize page load time and overall performance:
+
+- **WebP Images**: We use WebP image format with superior compression and quality to reduce image loading times without sacrificing visual appeal.
+
+- **DOM Elements Reduction**: We optimized the DOM structure, minimizing unnecessary elements to speed up rendering and enhance user interactions.
+
+- **Good Coding Practices**: Following industry standards, we ensure clean and efficient code for streamlined execution and improved responsiveness.
+
+- **Lesser Dependencies**: We selectively use essential dependencies to maintain a lean codebase, leading to faster load times and enhanced maintainability.
+
+- **Code Splitting**: By implementing code splitting, we load only essential parts for the initial view, reducing initial loading time and optimizing performance.
+
+These strategies ensure that Atlan SQL Editor delivers a smooth and seamless experience to users, making SQL query composition and execution effortless and efficient.
+
+## References
+
+- Figma Design File: [View Figma Design](https://www.figma.com/file/t4xS2MWyUmeaSTHdGaweU5/Untitled?type=design&node-id=0%3A1&mode=design&t=yRaaTLkUdvntXHFq-1)
+- React Ace Editor: [Documentation](https://www.npmjs.com/package/react-ace)
+- React CSV to HTML Table: [Documentation](https://www.npmjs.com/package/react-csv-to-table)
+- React Toastify: [Documentation](https://www.npmjs.com/package/react-toastify)
+- Sample Tables: [GitHub Repository](https://github.com/graphql-compose/graphql-compose-examples/tree/master/examples/northwind/data/csv)
