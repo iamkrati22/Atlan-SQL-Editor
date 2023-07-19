@@ -1,6 +1,6 @@
-## About this project
+## 🚀 About this project
 
-🚀 Atlan SQL Editor is a sleek and intuitive tool designed to simplify SQL query composition and execution. With a clean and organized workspace, users can focus on writing accurate and efficient SQL queries effortlessly. The editor provides smart code recommendations, schema reference, and real-time error handling to enhance the overall user experience. Whether you are a beginner or an experienced developer, Atlan SQL Editor empowers you to interact with databases and gain valuable insights from your data.
+Atlan SQL Editor is a sleek and intuitive tool designed to simplify SQL query composition and execution. With a clean and organized workspace, users can focus on writing accurate and efficient SQL queries effortlessly. The editor provides smart code recommendations, schema reference, and real-time error handling to enhance the overall user experience. Whether you are a beginner or an experienced developer, Atlan SQL Editor empowers you to interact with databases and gain valuable insights from your data.
 
 ## Key Features
 
@@ -32,7 +32,7 @@ Atlan SQL Editor is built with the following technologies:
 - [VS Code](https://code.visualstudio.com/)
 - [Vercel](https://vercel.com/)
 
-### NPM Modules Used
+## NPM Modules Used
 
 The Atlan SQL Editor project leverages the following NPM modules:
 
@@ -52,9 +52,6 @@ The Atlan SQL Editor project leverages the following NPM modules:
 
 These NPM modules play a crucial role in building and enhancing the Atlan SQL Editor, providing essential functionalities and improving the user experience.
 
-
-
-
 ## Performance
 
 We take performance seriously, and as a result, Atlan SQL Editor achieved impressive results in Google PageSpeed Insights. Here are the performance metrics for the desktop and mobile views:
@@ -63,11 +60,9 @@ We take performance seriously, and as a result, Atlan SQL Editor achieved impres
 ![Desktop View Performance](https://i.ibb.co/nDKB26Q/desktop-view.png)
 
 #### Mobile View:
-![Mobile View Performance](https://i.ibb.co/qrhZm02/mobile-view.png)
+![Mobile View Performance](https://i.ibb.co/P4WK0WC/mv-2.png)
 
 These performance metrics were obtained from [Google PageSpeed Insights](https://pagespeed.web.dev/analysis/https-atlan-sql-editor-git-main-iamkrati22-vercel-app/93oqrn4v92?form_factor=desktop). We continually strive to optimize the user experience, ensuring that Atlan SQL Editor provides the best performance across all devices.
-
-
 
 ## Page Load Time Optimization
 
