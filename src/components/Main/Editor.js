@@ -80,7 +80,6 @@ const Editor = () => {
             editorProps={{ $blockScrolling: Infinity }}
             setOptions={{
               enableSnippets: false,
-              autoCapitalize: "on",
             }}
           />
           <div className="btn-container">
@@ -95,7 +94,7 @@ const Editor = () => {
         </div>
       </div>
 
-      {keyword && <OrdersTable csvData={keyword} />}
+      {<OrdersTable csvData={keyword} />}
     </div>
   );
 };

@@ -1,6 +1,5 @@
 
 #Instructions{
-    font-family: 'Open Sans', sans-serif;
     margin: 2vw;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     padding: 1vw 2vw;
@@ -11,7 +10,6 @@ a{
     color: black;
 }
 #Instructions h3{
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.4vw;
     font-weight: 600;
     padding: 1vw 0vw;

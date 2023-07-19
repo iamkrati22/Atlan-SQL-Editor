@@ -8,7 +8,6 @@
   
   .dark-mode label {
     font-size: 1vw;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     display: inline-block;
     margin-right: 5px;
@@ -43,7 +42,6 @@
     padding: 1.1vw;
     display: flex;
     cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
     font-size: 0.9vw;
     font-weight: 500;
     align-items: center;

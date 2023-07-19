@@ -15,7 +15,6 @@
     text-align: center;
     font-size: 1.5vw;
     margin-bottom: 0.5vw;
-    font-family: 'Montserrat', sans-serif;
   }
   
   #Schema ul {
@@ -26,7 +25,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
   }
   
   #Schema li {
@@ -60,7 +58,6 @@
   
   #Schema  th {
     background-color: #f0f0f0;
-        font-family: 'Montserrat', sans-serif;
   }
   
   @media screen and (max-width: 768px) {
