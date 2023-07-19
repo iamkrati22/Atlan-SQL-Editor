@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/Navbar.css";
-import logo from '../../logo.png';
+import logo from '../../logo.webp';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
 
