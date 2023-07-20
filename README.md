@@ -2,7 +2,8 @@
 
 Atlan SQL Editor is a sleek and intuitive tool designed to simplify SQL query composition and execution. With a clean and organized workspace, users can focus on writing accurate and efficient SQL queries effortlessly. The editor provides smart code recommendations, schema reference, and real-time error handling to enhance the overall user experience. Whether you are a beginner or an experienced developer, Atlan SQL Editor empowers you to interact with databases and gain valuable insights from your data.
 
-<img src="https://i.ibb.co/Fwb7rWF/sc.png" alt="Atlan SQL Editor Screenshot">
+![UI](https://i.ibb.co/Fwb7rWF/sc.png)
+
 ## Key Features
 
 Explore the full potential of Atlan SQL Editor and unleash the power of SQL query writing. Simplify your data manipulation tasks and experience the following key features:
