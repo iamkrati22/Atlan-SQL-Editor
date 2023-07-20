@@ -14,7 +14,7 @@ class Schema extends React.Component {
     const { selectedTable } = this.state;
 
     const tableData = {
-        Employees: {
+        Shippers: {
           employee_id: "int",
           first_name: "varchar",
           last_name: "varchar",
