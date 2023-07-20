@@ -60,9 +60,9 @@ We take performance seriously, and as a result, Atlan SQL Editor achieved impres
 ![Desktop View Performance](https://i.ibb.co/nDKB26Q/desktop-view.png)
 
 #### Mobile View:
-![Mobile View Performance](https://i.ibb.co/P4WK0WC/mv-2.png)
+![Mobile View Performance](https://i.ibb.co/dJLLwtY/mv-3.png)
 
-These performance metrics were obtained from [Google PageSpeed Insights](https://pagespeed.web.dev/analysis/https-atlan-sql-editor-git-main-iamkrati22-vercel-app/93oqrn4v92?form_factor=desktop). We continually strive to optimize the user experience, ensuring that Atlan SQL Editor provides the best performance across all devices.
+These performance metrics were obtained from [Google PageSpeed Insights](https://pagespeed.web.dev/analysis/https-atlan-sql-editor-seven-vercel-app/cn913845x8?form_factor=mobile). We continually strive to optimize the user experience, ensuring that Atlan SQL Editor provides the best performance across all devices.
 
 ## Page Load Time Optimization
 
